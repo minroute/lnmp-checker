@@ -1,9 +1,14 @@
 直接使用：
 
 ```shell
-wget -c https://raw.githubusercontent.com/minroute/lnmp-checker/main/lnmp_checker
+# 下载
+wget -c https://github.com/minroute/lnmp-checker/releases/download/v1/lnmp_checker
+
+# 给执行权限
 chmod +x lnmp_checker
-lnmp_checker
+
+# 检测
+./lnmp_checker
 ```
 
 
